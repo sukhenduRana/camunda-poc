@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "label": "Enter price for flight",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1dl5yqy",
+        "columns": null
+      },
+      "id": "Field_0t23rf2",
+      "key": "flightCost",
+      "description": "for tax reasons",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qjnkvn",
+        "columns": null
+      },
+      "id": "Field_1yj9tga",
+      "key": "country",
+      "description": "Country you are going to",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "board_flight",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "schemaVersion": 16
+}

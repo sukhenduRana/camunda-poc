@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "label": "Withdraw cash",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1dl5yqy",
+        "columns": null
+      },
+      "id": "Field_0t23rf2",
+      "key": "money",
+      "description": "How much money?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qjnkvn",
+        "columns": null
+      },
+      "id": "Field_1yj9tga",
+      "key": "country",
+      "description": "Country you are going to",
+      "validate": {
+        "required": true,
+        "pattern": "America|Europe"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "prepare_for_departure",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "schemaVersion": 16
+}
